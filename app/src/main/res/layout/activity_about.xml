@@ -61,7 +61,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="@dimen/md_keylines"
-                android:text="Jesús Pérez Montes"
+                android:text="@string/about_nombre"
                 android:textColor="?attr/colorAccent"
                 android:textSize="@dimen/article_titles" />
 
@@ -76,7 +76,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/md_keylines"
                 android:layout_marginBottom="@dimen/md_keylines"
-                android:text="Datos de contacto"
+                android:text="@string/about_datos"
                 android:textColor="?attr/colorAccent"
                 android:textSize="@dimen/article_titles" />
 

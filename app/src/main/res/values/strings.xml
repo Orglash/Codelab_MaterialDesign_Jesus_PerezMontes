@@ -37,6 +37,8 @@
     <string name="detail_email_about">"jesus.perez@escuelaestech.es"</string>
     <string name="detail_phone_about">"639 485558"</string>
     <string name="detail_git_about">"https://github.com/Orglash"</string>
+    <string name="about_nombre">"Jesús Pérez Montes"</string>
+    <string name="about_datos">"Datos de contacto"</string>
 
 
 </resources>
