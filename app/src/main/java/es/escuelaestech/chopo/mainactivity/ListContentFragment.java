@@ -85,6 +85,7 @@ public class ListContentFragment extends Fragment {
             holder.description.setText(mPlaceDesc[position % mPlaceDesc.length]);
         }
 
+
         @Override
         public int getItemCount() {
             return LENGTH;

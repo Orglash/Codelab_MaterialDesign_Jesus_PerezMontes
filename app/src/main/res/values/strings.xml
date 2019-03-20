@@ -31,5 +31,12 @@
     <string name="menuvalue1">"Home"</string>
     <string name="menuvalue2">"Favorites"</string>
     <string name="menuvalue3">"Bookmarks"</string>
+    <string name="item_title_about">" "</string>
+    <string name="detail_desc_about">"App developer"</string>
+    <string name="detail_location_about">"C/Camelia Nº46"</string>
+    <string name="detail_email_about">"jesus.perez@escuelaestech.es"</string>
+    <string name="detail_phone_about">"639 485558"</string>
+    <string name="detail_git_about">"https://github.com/Orglash"</string>
+
 
 </resources>
