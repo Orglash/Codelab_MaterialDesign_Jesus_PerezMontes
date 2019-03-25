@@ -3,6 +3,7 @@ package es.escuelaestech.chopo.mainactivity;
 import android.content.Intent;
 import android.content.res.Resources;
 import android.content.res.TypedArray;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.design.widget.CollapsingToolbarLayout;
 import android.support.v7.app.AppCompatActivity;
@@ -49,7 +50,16 @@ public class AboutActivity extends AppCompatActivity {
         phoneAbout=findViewById(R.id.about_phone);
         gitAbout=findViewById(R.id.about_git);
         button=findViewById(R.id.back_button);
+    }
 
+    public void goEmail(View view){
+        Intent goToEmail=new Intent(Intent.ACTION_VIEW, Uri.parse("https://mail.google.com/mail/u/0/#inbox"));
+        startActivity(goToEmail);
+    }
+
+    public void goGitHub(View view){
+        Intent goToGitHub=new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/Orglash"));
+        startActivity(goToGitHub);
     }
 
 
